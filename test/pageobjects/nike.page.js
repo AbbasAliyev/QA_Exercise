@@ -6,6 +6,7 @@ const Page = require('./page');
 class NikePage extends Page {
 
     get familyTree () { return $('.toccolours')}
+    get nikeHeader () { return $('#firstHeading')}
 
     open () {
         return super.open('Nike_(mythology)');
